@@ -1,0 +1,15 @@
+{
+    "name": "javascript-template",
+    "version": "1.0.0",
+    "description": "A B C D F U",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Rainer",
+    "license": "MIT",
+    "dependencies": {
+        "esm": "^3.2.25"
+    }
+}

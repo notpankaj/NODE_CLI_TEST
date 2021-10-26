@@ -1,0 +1,29 @@
+{
+  "name": "@pankaj/node_cli",
+  "version": "1.0.0",
+  "description": "A B C D F U",
+  "main": "src/index.js",
+  "bin": {
+    "@pankaj/node_cli": "bin/rain",
+    "rain": "bin/rain"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "rain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0",
+    "ncp": "^2.0.0"
+  }
+}

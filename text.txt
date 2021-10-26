@@ -1,0 +1,20 @@
+ package .json
+  "name": "@pankaj/node_cli",
+  "bin": {
+    "@pankaj/node_cli": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+
+
+-- run scripts using 
+npm link  //used to create sim link to ourcode so we can test in cli
